@@ -21,6 +21,11 @@ vram-usage-watch:
         Start-Sleep -Seconds 1
     }
 
+run-pwsh-embed:
+    #!pwsh
+    cd api/pwsh
+    .\embed.ps1
+
 run-python-hello-requests:
     #!pwsh
     cd api/python
